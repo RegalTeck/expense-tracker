@@ -1,0 +1,26 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+.Heading {
+  text-align: center;
+  color: beige;
+  background-color: black;
+  padding: 10px;
+  font-size: 25px;
+}
+
+@media (max-width: 580px) {
+  .Heading {
+    padding: 10px;
+    font-size: 15px;
+  }
+}
+@media (max-width: 380px) {
+  .Heading {
+    padding: 5px;
+    font-size: 10px;
+  }
+}

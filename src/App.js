@@ -1,6 +1,8 @@
-import Expenses from "./components/Expenses";
+import Expenses from "./components/Expenses/Expenses";
+import Heading from "./components/Heading/Heading";
 
 function App() {
+  const heading = "Working with Custom Components, props and folder structure";
   const expenses = [
     {
       id: "e1",
@@ -30,7 +32,7 @@ function App() {
 
   return (
     <div>
-      <h2>Let's get started</h2>
+      <Heading heading={heading} />
       <Expenses items={expenses} />
     </div>
   );
